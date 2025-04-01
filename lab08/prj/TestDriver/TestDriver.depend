@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1742401381 source:e:\project\olefirov-hlib-kb24\lab8\prj\testdriver\main.cpp
+	<iostream>
+	<cmath>
+	"ModulesOlefirov.h"
+	<locale.h>
+
+1742399586 e:\project\olefirov-hlib-kb24\lab8\prj\modulesolefirov.h
+
