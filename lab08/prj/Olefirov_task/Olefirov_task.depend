@@ -1,9 +1,0 @@
-# depslib dependency file v1.0
-1742410090 source:e:\project\olefirov-hlib-kb24\lab8\prj\olefirov_task\main.cpp
-	<iostream>
-	<cmath>
-	"ModulesOlefirov.h"
-	<windows.h>
-
-1742399586 e:\project\olefirov-hlib-kb24\lab8\prj\modulesolefirov.h
-
