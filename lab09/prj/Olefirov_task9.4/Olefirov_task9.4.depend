@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1744537095 source:e:\project\olefirov-hlib-kb24\lab8\olefirov-hlib-kb24\lab09\prj\testdriver\main.cpp
+1744544984 source:e:\project\olefirov-hlib-kb24\lab8\olefirov-hlib-kb24\lab09\prj\olefirov_task9.4\main.cpp
 	<iostream>
 	"ModulesOlefirov.h"
 	"locale.h"
