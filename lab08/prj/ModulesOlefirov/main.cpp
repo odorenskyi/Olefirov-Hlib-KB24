@@ -1,6 +1,11 @@
 #include <iostream>
-#include <cmath>
-
+#include <math.h>
+#include <fstream>
+#include <string>
+#include <cctype>
+#include <ctime>
+#include <sstream>
+#include <bitset>
 using namespace std;
 
 
@@ -149,4 +154,82 @@ void processNumber() {
     // Вивід результату
     cout << "Результат: " << (bit11 ? count0 : count1) << endl;
 }
+// Перевірка на приголосні
+bool isConsonant(char ch) {
+    ch = tolower(ch);
+    string cons = "бвгґджзйклмнпрстфхцчшщ";
+    for (char c : cons) {
+        if (ch == c) return true;
+    }
+    return false;
+}
 
+// Завдання 10.1
+void processText(const string& inputFile, const string& outputFile) {
+    ifstream in(inputFile);
+    ofstream out(outputFile);
+
+    if (!in.is_open() || !out.is_open()) {
+        cout << "Помилка відкриття файлів!" << endl;
+        return;
+    }
+
+    string word;
+    in >> word;
+    in.close();
+
+    int count = 0;
+    for (char ch : word) {
+        if (isConsonant(ch)) count++;
+    }
+
+    string poem = "Про себе не кажи недобрих слів, "
+                  "Бо має сказане таємну силу. "
+                  "Кажи: «Я сильний, впевнений, щасливий!» "
+                  "І буде саме так, як ти хотів!";
+
+    bool found = (poem.find(word) != string::npos);
+
+    out << "Автор: Олефіров Гліб, ЦНТУ, Кропивницький, Україна, 2025\n";
+    out << "Слово: " << word << "\n";
+    out << "Кількість приголосних: " << count << "\n";
+    out << "Слово " << (found ? "є" : "немає") << " у вірші Іващенка.\n";
+
+    out.close();
+}
+
+// Завдання 10.2
+void appendInfoToFile(const string& filename) {
+    ifstream inFile(filename);
+    int charCount = 0;
+    char ch;
+    while (inFile.get(ch)) charCount++;
+    inFile.close();
+
+    time_t now = time(0);
+    tm* localTime = localtime(&now);
+
+    stringstream dateStream;
+    dateStream << "Дата дозапису: "
+               << (localTime->tm_mday < 10 ? "0" : "") << localTime->tm_mday << "."
+               << (localTime->tm_mon + 1 < 10 ? "0" : "") << (localTime->tm_mon + 1) << "."
+               << (1900 + localTime->tm_year) << " "
+               << (localTime->tm_hour < 10 ? "0" : "") << localTime->tm_hour << ":"
+               << (localTime->tm_min < 10 ? "0" : "") << localTime->tm_min << ":"
+               << (localTime->tm_sec < 10 ? "0" : "") << localTime->tm_sec;
+
+    ofstream outFile(filename, ios::app);
+    outFile << "\nКількість символів: " << charCount << endl;
+    outFile << dateStream.str() << endl;
+    outFile.close();
+}
+void processTask10_3(double x, double y, double z, int b, const string& outputFilename) {
+    double result = calculate_S(x, y, z);
+    bitset<8> binaryB(b);
+
+    ofstream outFile(outputFilename, ios::app);
+    outFile << "\n=== Результат задачі 10.3 ===\n";
+    outFile << "s_calculation(x, y, z) = " << result << endl;
+    outFile << "Число b у двійковій системі: " << binaryB << endl;
+    outFile.close();
+}

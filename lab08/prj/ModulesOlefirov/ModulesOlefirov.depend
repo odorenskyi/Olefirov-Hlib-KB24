@@ -1,5 +1,11 @@
 # depslib dependency file v1.0
-1744536788 source:e:\project\olefirov-hlib-kb24\lab8\olefirov-hlib-kb24\lab08\prj\modulesolefirov\main.cpp
+1745651727 source:e:\project\olefirov-hlib-kb24\lab8\olefirov-hlib-kb24\lab08\prj\modulesolefirov\main.cpp
 	<iostream>
-	<cmath>
+	<math.h>
+	<fstream>
+	<string>
+	<cctype>
+	<ctime>
+	<sstream>
+	<bitset>
 
