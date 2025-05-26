@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1748281361 source:e:\project\olefirov-hlib-kb24\lab8\olefirov-hlib-kb24\lab11\prj\prj_6_Олефіров\main.cpp
+	"struct_type_project_6.h"
+	"modulesKovalova.h"
+	"modulesOlefirov.h"
+	"modulesSumar.h"
+	<iostream>
+	<cstdlib>
+	<windows.h>
+
+1748193622 e:\project\olefirov-hlib-kb24\lab8\olefirov-hlib-kb24\lab11\prj\struct_type_project_6.h
+	<string>
+
+1748194228 e:\project\olefirov-hlib-kb24\lab8\olefirov-hlib-kb24\lab11\prj\moduleskovalova.h
+	"struct_type_project_6.h"
+
+1748194235 e:\project\olefirov-hlib-kb24\lab8\olefirov-hlib-kb24\lab11\prj\modulesolefirov.h
+	"struct_type_project_6.h"
+
+1748194145 e:\project\olefirov-hlib-kb24\lab8\olefirov-hlib-kb24\lab11\prj\modulessumar.h
+	"struct_type_project_6.h"
+
