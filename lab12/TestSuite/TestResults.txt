@@ -1,0 +1,33 @@
+
+Тестування файлу:test1.txt
+Test Case ID: T1 | Action: setA | Expected: 5 | Result: passed
+Test Case ID: T2 | Action: setB | Expected: 3 | Result: passed
+Test Case ID: T3 | Action: area | Expected: 47.1 | Actual: 47.1239 | Result: passed
+Test Case ID: T4 | Action: setA | Expected: 0 | ВИНЯТОК: Параметр a має бути додатнім.
+Test Case ID: T5 | Action: setB | Expected: -1 | ВИНЯТОК: Параметр b має бути додатнім.
+Test Case ID: T6 | Action: setA | Expected: 2 | Result: passed
+Test Case ID: T7 | Action: setB | Expected: 4 | Result: passed
+Test Case ID: T8 | Action: area | Expected: 25.1 | Actual: 25.1327 | Result: passed
+
+Тестування файлу:test1.txt
+Test Case ID: T1 | Action: setA | Expected: 5 | Result: passed
+Test Case ID: T2 | Action: setB | Expected: 3 | Result: passed
+Test Case ID: T3 | Action: area | Expected: 47.1 | Actual: 47.1239 | Result: passed
+Test Case ID: T4 | Action: setA | Expected: 0 | ВИНЯТОК: Параметр a має бути додатнім.
+Test Case ID: T5 | Action: setB | Expected: -1 | ВИНЯТОК: Параметр b має бути додатнім.
+Test Case ID: T6 | Action: setA | Expected: 2 | Result: passed
+Test Case ID: T7 | Action: setB | Expected: 4 | Result: passed
+Test Case ID: T8 | Action: area | Expected: 25.1 | Actual: 25.1327 | Result: passed
+
+Тестування файлу:test2.txt
+Test Case ID: T1 | Action: setA | Expected: 10 | Result: passed
+Test Case ID: T2 | Action: setB | Expected: 5 | Result: passed
+Test Case ID: T3 | Action: area | Expected: 157 | Actual: 157.08 | Result: passed
+Test Case ID:  | Action:  | Expected: 157 | Unknown action!
+Test Case ID: T4 | Action: setA | Expected: 3.5 | Result: passed
+Test Case ID: T5 | Action: setB | Expected: 2.5 | Result: passed
+Test Case ID: T6 | Action: area | Expected: 27.5 | Actual: 27.4889 | Result: passed
+Test Case ID:  | Action:  | Expected: 27.5 | Unknown action!
+Test Case ID: T7 | Action: setA | Expected: -2 | ВИНЯТОК: Параметр a має бути додатнім.
+Test Case ID: T8 | Action: setB | Expected: 0 | ВИНЯТОК: Параметр b має бути додатнім.
+
