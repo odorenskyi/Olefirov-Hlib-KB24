@@ -1,0 +1,10 @@
+T1;setA;10
+T2;setB;5
+T3;area;157.0
+
+T4;setA;3.5
+T5;setB;2.5
+T6;area;27.5
+
+T7;setA;-2
+T8;setB;0
