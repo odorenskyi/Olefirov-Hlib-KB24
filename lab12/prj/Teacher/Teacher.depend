@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1749642294 source:e:\project\olefirov-hlib-kb24\lab8\olefirov-hlib-kb24\lab12\prj\teacher\main.cpp
+1749993867 source:e:\project\olefirov-hlib-kb24\lab8\olefirov-hlib-kb24\lab12\prj\teacher\main.cpp
 	<iostream>
 	<fstream>
 	<sstream>
@@ -7,7 +7,7 @@
 	"ModulesOlefirov.h"
 	<locale.h>
 
-1749638340 e:\project\olefirov-hlib-kb24\lab8\olefirov-hlib-kb24\lab08\prj\modulesolefirov.h
+1749644870 e:\project\olefirov-hlib-kb24\lab8\olefirov-hlib-kb24\lab08\prj\modulesolefirov.h
 	<string>
 	<stdexcept>
 	<cmath>
